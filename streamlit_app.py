@@ -8,7 +8,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 # Load data
-df = pd.read_excel("C:/Intern/Deliverables/pH model/pH model.xlsx")
+df = df = pd.read_excel("pH model.xlsx")
+
 
 # Constants
 pKa1 = 3.13
